@@ -1,0 +1,8 @@
+services:
+  app:
+    image: sample-flask-student1-mod5:1.0
+    ports:
+      - ${PORT}:${PORT}
+    env_file:
+      - .env
+
